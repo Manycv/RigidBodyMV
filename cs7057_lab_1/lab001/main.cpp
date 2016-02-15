@@ -144,6 +144,8 @@ int main()
 	box->loadFromFile("../models/Cube.3ds");
 	rigidBodies.push_back(new RigidBody(box));
 
+	std::cout << "some amazing feature has been added";
+
 
 	glEnable(GL_DEPTH_TEST);
 	while (!glfwWindowShouldClose(window))
